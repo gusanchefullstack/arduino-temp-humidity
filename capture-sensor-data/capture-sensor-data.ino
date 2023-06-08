@@ -19,7 +19,7 @@ unsigned long previousLedMillis = 0;
 
 //Interval for reading Temperature and Humidity but also ON/OFF led
 long sensorReadInterval = 30000;
-long ledInterval = 1000;
+long ledInterval = 900;
 
 void setup() {
   // put your setup code here, to run once:
